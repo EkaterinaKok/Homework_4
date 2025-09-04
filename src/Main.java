@@ -33,11 +33,11 @@ public class Main {
 
         //Task 4
         System.out.println("Задача 4");
-        int age4 = 25;
-        if (age4 >= 2 && age4 < 6) {
+        int age4 = 17;
+        if (age4 >= 2 && age4 <= 6) {
             System.out.println("Если возраст человека равен " + age4 + ", то ему нужно ходить в детский сад.");
         }
-        if (age4 >= 7 && age4 < 17) {
+        if (age4 >= 7 && age4 <= 17) {
             System.out.println("Если возраст человека равен " + age4 + ", то ему нужно ходить в школу.");
         }
         if (age4 >= 18 && age4 <= 24) {
@@ -50,14 +50,14 @@ public class Main {
 
         //Task 5
         System.out.println("Задача 5");
-        int age5 = 15;
+        int age5 = 14;
         if (age5 < 5) {
             System.out.println("Если возраст ребенка равен " + age5 + ", то ему нельзя кататься на аттракционе.");
         }
-        if (age5 > 5 && age5 < 14) {
+        if (age5 >= 5 && age5 < 14) {
             System.out.println("Если возраст ребенка равен " + age5 + ", то ему можно кататься на аттракционе в сопровождении взрослого.");
         }
-        if (age5 > 14) {
+        if (age5 >= 14) {
             System.out.println("Если возраст ребенка равен " + age5 + ", то ему можно кататься на аттракционе без сопровождения взрослого.");
         }
         System.out.println();
@@ -80,7 +80,7 @@ public class Main {
         System.out.println();
 
         //Task 7
-        System.out.println("Задача 6");
+        System.out.println("Задача 7");
         int one = 25;
         int two = 100;
         int three = 15;
